@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+height:100vh;
+font-weight: 100%;
+background-image: url(background.jpg);
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+position: relative;
+}
+
+
+.navbar{
+    width:100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+
+#search{
+    width: 400px;
+    height:40px;
+    border-radius: 50px;
+    padding-right: 100px;
+    border-color:#dc3737;
+}
+
+#search:hover{
+    border-color: #b1e70d;
+    border-radius: 2px solid green;
+
+}
+   
+.search{
+    width: 30px;
+    cursor: pointer;
+    /* padding-right: 110px; */
+    /* margin-top: 30px; */
+    
+}
+
+.placeholder{
+    
+    /* background-color: yellow; */
+    justify-content:space-evenly;
+    margin-right: 120px;
+   
+    /* width: 600px; */
+    align-items: center;
+}
+
+.searchicon{
+    /* background-color: white; */
+    margin-left:460px ;
+    width: 30px;
+    margin-top:-38px ;
+}
+.cart{
+    width: 40px;
+    cursor: pointer;
+}
+
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(162, 160, 160);
+}
+
+
+nav ul li:hover{
+    background-color: red;
+    border-radius: 50px;
+}
+
+
+h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#dc3737
+}
+
+
+p{
+    font-size: 20px;
+   
+    color:#eede64
+}
+
+
+.margin{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg,  #87adfe,  #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:#fff;
+    box-shadow: 3px 8px 22pxrgba(94,28,68,0.15);
+}
+
+
+.arrow-icon{
+    margin-top: 40px;
+    display: flex;
+}
+
+
+.arrow-icon img{
+    width: 40px;
+    margin-right: 25px;
+}
+
+.feature-img{
+    height: 85%;
+    position:absolute;
+    bottom:0;
+    right:160px;
+}
+
+
+.social-links{
+transform: rotate(-90deg);
+position: absolute;
+left:-80px;
+bottom:150px;
+}
+
+
+.social-links a{
+    text-decoration: none;
+    color:#04e3a8;
+    padding-right: 20px;
+    font-size: 14px;
+}
